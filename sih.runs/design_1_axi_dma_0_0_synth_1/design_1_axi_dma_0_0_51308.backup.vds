@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat Sep 21 20:23:52 2024
+# Process ID: 51308
+# Current directory: C:/Users/yenna/sih/sih.runs/design_1_axi_dma_0_0_synth_1
+# Command line: vivado.exe -log design_1_axi_dma_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_dma_0_0.tcl
+# Log file: C:/Users/yenna/sih/sih.runs/design_1_axi_dma_0_0_synth_1/design_1_axi_dma_0_0.vds
+# Journal file: C:/Users/yenna/sih/sih.runs/design_1_axi_dma_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_axi_dma_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1175.230 ; gain = 50.797
+Command: synth_design -top design_1_axi_dma_0_0 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 27280
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:27 . Memory (MB): peak = 1175.230 ; gain = 0.000
+---------------------------------------------------------------------------------
