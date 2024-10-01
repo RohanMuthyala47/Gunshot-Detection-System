@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/yenna/sih/sih.srcs/constrs_1/new/sai.xdc rfile:../../../sih.srcs/constrs_1/new/sai.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AB15 [get_ports reset_rtl]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property MARK_DEBUG true [get_nets reset_rtl_IBUF]
+set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property FIXED_ROUTE { { IOB_IBUF0 RIOI_I0 RIOI_ILOGIC0_D IOI_ILOGIC0_O IOI_LOGIC_OUTS18_0 INT_INTERFACE_LOGIC_OUTS18 SW6BEG0 SW6BEG2 SW6BEG0 SW6BEG2 WW4BEG1 WW4BEG1 WW4BEG1 WW4BEG1 WW4BEG1 WW4BEG1 WW4BEG1 WW4BEG1 WW4BEG1  { WL1BEG_N3 LV_L0 LV_L0 LV_L0 LV_L0 LV_L0 LV_L0 LV_L0 NN6BEG3 NN6BEG3 NN2BEG3 NN2BEG3 WW2BEG2 IMUX_L5 CLBLM_L_A6 }  WW4BEG1 WW4BEG1 WW4BEG1 WW4BEG1 WW4BEG1 WW4BEG1 WW4BEG1 NN2BEG1 IMUX34 CMT_LR_LOWER_B_MMCM_RST }  } [get_nets reset_rtl_IBUF]
